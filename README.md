@@ -1,4 +1,4 @@
-## Instrucciones
+## Instructions
 
 npm i
 

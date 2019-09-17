@@ -22,7 +22,5 @@ mongoose.connect(process.env.URLDB, { useNewUrlParser: true, useCreateIndex: tru
     console.log('Database Online');
 });
 //mongoose.set('useCreateIndex', true);
-console.log(process.env.NODE_ENV);
-console.log(process.env.URLDB);
 
 app.listen(process.env.PORT, () => console.log('Server is listening port', process.env.PORT));
